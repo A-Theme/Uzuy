@@ -15,11 +15,11 @@
 
 # uzuy - Nintendo Switch Emulator
 
-uzuy is setting new benchmarks in Nintendo Switch emulation as a continuation to the uzuy project. As an open-source initiative under the GPLv3 license, it facilitates gaming and development across multiple platforms, making Switch games more accessible than ever before.
+uzuy is setting new benchmarks in Nintendo Switch emulation as a continuation to the yuzu project. As an open-source initiative under the GPLv3 license, it facilitates gaming and development across multiple platforms, making Switch games more accessible than ever before.
 
 ## Key Features
 
-- **Strict Anti-Piracy** online prod.keys will not work, the latest firmware is mandatory and must be dumped yourself.
+- **Strict Anti-Piracy** online prod.keys will not work, the latest firmware/keys are mandatory and must be dumped yourself.
 - **Wide Range Compatibility** with Nintendo Switch titles, ensuring you can play your favorite games.
 - **Superior Graphics** and customizable performance options for an enhanced gaming experience.
 - **Multi-Platform Support** for Windows, macOS, Linux, and Android, making it accessible to a wide range of users.
