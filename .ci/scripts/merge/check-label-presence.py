@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2019 yuzu Emulator Project
+# SPDX-FileCopyrightText: 2024 uzuy Emulator Project
 # SPDX-License-Identifier: GPL-2.0-or-later
 
 # Checks to see if the specified pull request # has the specified tag

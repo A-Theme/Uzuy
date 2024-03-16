@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2019 yuzu Emulator Project
+# SPDX-FileCopyrightText: 2024 uzuy Emulator Project
 # SPDX-License-Identifier: GPL-2.0-or-later
 
 # Download all pull requests as patches that match a specific label
