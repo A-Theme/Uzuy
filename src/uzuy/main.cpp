@@ -5339,7 +5339,7 @@ int main(int argc, char* argv[]) {
 
     GMainWindow main_window{std::move(config), has_broken_vulkan};
     // After settings have been loaded by GMainWindow, apply the filter
-    main_window.setWindowTitle("uzuy AURA Build 1735");
+    main_window.setWindowTitle(QStringLiteral("uzuy AURA Build 1735"));
     main_window.show();
 
     QObject::connect(&app, &QGuiApplication::applicationStateChanged, &main_window,
