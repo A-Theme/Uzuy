@@ -10,7 +10,7 @@
   <img alt="Yuzu Team" src="https://img.shields.io/badge/Credits-Yuzu-gold">
   <img alt="Discord" src="https://img.shields.io/discord/1215190304588566559"-blue>
   <img alt="License" src="https://img.shields.io/github/license/uzuy-emu/uzuy">
-  <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/uzuy-emu/uzuy/total-red">
+  <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/uzuy-emu/uzuy/total">
 </p>
 
 # uzuy - Nintendo Switch Emulator
