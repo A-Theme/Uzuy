@@ -5,7 +5,7 @@
 
 #include <chrono>
 #include <string>
-#include "common/telemetry.h"
+// #include "common/telemetry.h"
 
 namespace WebService {
 
@@ -18,20 +18,20 @@ public:
     TelemetryJson(std::string host, std::string username, std::string token);
     ~TelemetryJson() override;
 
-    void Visit(const Common::Telemetry::Field<bool>& field) override;
-    void Visit(const Common::Telemetry::Field<double>& field) override;
-    void Visit(const Common::Telemetry::Field<float>& field) override;
-    void Visit(const Common::Telemetry::Field<u8>& field) override;
-    void Visit(const Common::Telemetry::Field<u16>& field) override;
-    void Visit(const Common::Telemetry::Field<u32>& field) override;
-    void Visit(const Common::Telemetry::Field<u64>& field) override;
-    void Visit(const Common::Telemetry::Field<s8>& field) override;
-    void Visit(const Common::Telemetry::Field<s16>& field) override;
-    void Visit(const Common::Telemetry::Field<s32>& field) override;
-    void Visit(const Common::Telemetry::Field<s64>& field) override;
-    void Visit(const Common::Telemetry::Field<std::string>& field) override;
-    void Visit(const Common::Telemetry::Field<const char*>& field) override;
-    void Visit(const Common::Telemetry::Field<std::chrono::microseconds>& field) override;
+    // void Visit(const Common::Telemetry::Field<bool>& field) override;
+    // void Visit(const Common::Telemetry::Field<double>& field) override;
+    // void Visit(const Common::Telemetry::Field<float>& field) override;
+    // void Visit(const Common::Telemetry::Field<u8>& field) override;
+    // void Visit(const Common::Telemetry::Field<u16>& field) override;
+    // void Visit(const Common::Telemetry::Field<u32>& field) override;
+    // void Visit(const Common::Telemetry::Field<u64>& field) override;
+    // void Visit(const Common::Telemetry::Field<s8>& field) override;
+    // void Visit(const Common::Telemetry::Field<s16>& field) override;
+    // void Visit(const Common::Telemetry::Field<s32>& field) override;
+    // void Visit(const Common::Telemetry::Field<s64>& field) override;
+    // void Visit(const Common::Telemetry::Field<std::string>& field) override;
+    // void Visit(const Common::Telemetry::Field<const char*>& field) override;
+    // void Visit(const Common::Telemetry::Field<std::chrono::microseconds>& field) override;
 
     void Complete() override;
     bool SubmitTestcase() override;

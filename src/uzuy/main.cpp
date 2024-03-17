@@ -210,14 +210,14 @@ void GMainWindow::ShowTelemetryCallout() {
 
     UISettings::values.callout_flags =
         UISettings::values.callout_flags.GetValue() | static_cast<uint32_t>(CalloutFlag::Telemetry);
-    const QString telemetry_message =
-        tr("<a href='https://uzuy-emu.org/help/feature/telemetry/'>Anonymous "
-           "data is collected</a> to help improve uzuy. "
-           "<br/><br/>Would you like to share your usage data with us?");
-    if (!question(this, tr("Telemetry"), telemetry_message)) {
-        Settings::values.enable_telemetry = false;
-        system->ApplySettings();
-    }
+    // const QString telemetry_message =
+    //     tr("<a href='https://uzuy-emu.org/help/feature/telemetry/'>Anonymous "
+    //        "data is collected</a> to help improve uzuy. "
+    //        "<br/><br/>Would you like to share your usage data with us?");
+    // if (!question(this, tr("Telemetry"), telemetry_message)) {
+    //     Settings::values.enable_telemetry = false;
+    //     system->ApplySettings();
+    // }
 }
 
 const int GMainWindow::max_recent_files_item;
@@ -4790,12 +4790,12 @@ void GMainWindow::OnMouseActivity() {
 void GMainWindow::OnCheckFirmwareDecryption() {
     system->GetFileSystemController().CreateFactories(*vfs);
     if (!ContentManager::AreKeysPresent()) {
-        QMessageBox::warning(
-            this, tr("Derivation Components Missing"),
-            tr("Encryption keys are missing. "
-               "<br>Please follow <a href='https://uzuy-emu.org/help/quickstart/'>the uzuy "
-               "quickstart guide</a> to get all your keys, firmware and "
-               "games."));
+        // QMessageBox::warning(
+        //     this, tr("Derivation Components Missing"),
+        //     tr("Encryption keys are missing. "
+        //        "<br>Please follow <a href='https://uzuy-emu.org/help/quickstart/'>the uzuy "
+        //        "quickstart guide</a> to get all your keys, firmware and "
+        //        "games."));
     }
     SetFirmwareVersion();
     UpdateMenuState();
