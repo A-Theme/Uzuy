@@ -1,4 +1,4 @@
-// SPDX-FileCopyrightText: 2018 Citra Emulator Project
+// SPDX-FileCopyrightText: 2024 uzuy Emulator Project
 // SPDX-License-Identifier: GPL-2.0-or-later
 
 #include <chrono>
@@ -24,7 +24,7 @@ DiscordImpl::DiscordImpl(Core::System& system_) : system{system_} {
     DiscordEventHandlers handlers{};
     // The number is the client ID for uzuy, it's used for images and the
     // application name
-    Discord_Initialize("712465656758665259", &handlers, 1, nullptr);
+    Discord_Initialize("1218832848698478635", &handlers, 1, nullptr);
 }
 
 DiscordImpl::~DiscordImpl() {
