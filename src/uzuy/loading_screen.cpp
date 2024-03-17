@@ -35,7 +35,7 @@ QProgressBar {
   padding: 2px;
 }
 QProgressBar::chunk {
-  background-color: #ff3c28;
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #ff0000, stop:0.167 #ff7f00, stop:0.333 #ffff00, stop:0.5 #00ff00, stop:0.667 #0000ff, stop:0.833 #8b00ff, stop:1 #ff00ff);
   width: 1px;
 })";
 
@@ -47,7 +47,7 @@ QProgressBar {
   padding: 2px;
 }
 QProgressBar::chunk {
-  background-color: #ff3c28;
+  background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #ff0000, stop:0.167 #ff7f00, stop:0.333 #ffff00, stop:0.5 #00ff00, stop:0.667 #0000ff, stop:0.833 #8b00ff, stop:1 #ff00ff);
 })";
 
 LoadingScreen::LoadingScreen(QWidget* parent)

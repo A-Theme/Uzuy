@@ -45,7 +45,7 @@
      <x>0</x>
      <y>0</y>
      <width>1280</width>
-     <height>21</height>
+     <height>20</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu_File">
@@ -182,11 +182,14 @@
      <string>&amp;Help</string>
     </property>
     <addaction name="action_Report_Compatibility"/>
-    <addaction name="action_Open_Mods_Page"/>
-    <addaction name="action_Open_Quickstart_Guide"/>
-    <addaction name="action_Open_FAQ"/>
     <addaction name="separator"/>
     <addaction name="action_About"/>
+   </widget>
+   <widget class="QMenu" name="menu_AURA">
+    <property name="title">
+     <string>&amp;AURA</string>
+    </property>
+    <addaction name="action_MARNIE"/>
    </widget>
    <addaction name="menu_File"/>
    <addaction name="menu_Emulation"/>
@@ -194,6 +197,7 @@
    <addaction name="menu_Tools"/>
    <addaction name="menu_Multiplayer"/>
    <addaction name="menu_Help"/>
+   <addaction name="menu_AURA"/>
   </widget>
   <action name="action_Install_File_NAND">
    <property name="enabled">
@@ -472,7 +476,12 @@
   </action>
   <action name="action_Install_Keys">
    <property name="text">
-    <string>Install Decryption Keys</string>
+    <string>Install Keys</string>
+   </property>
+  </action>
+  <action name="action_MARNIE">
+   <property name="text">
+    <string>&amp;MARNIE</string>
    </property>
   </action>
  </widget>
